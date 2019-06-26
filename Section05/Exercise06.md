@@ -1,4 +1,4 @@
-# Exercise 05 - Highlighting
+# Exercise 06 - Highlighting
 
 1. Highlight the field name using fastVector highlighter 
 

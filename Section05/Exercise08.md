@@ -1,37 +1,43 @@
-# Exercise 08 - Suggester
+# Exercise 09 - Pagination
 
-We have configured the suggester and request handler for this suggester in solrconfig.xml. 
+1. Search for a query `q=*:*` and get the first five results sorted by `ID` in ascending order. 
 
-Now let's run the configured suggester and examine the response. 
 
-Example: Let's search for elec and see how many suggestions are returned in response. 
- 
-
-```html
-http://localhost:8983/solr/techproducts/suggest?suggest=true&suggest.build=true&suggest.dictionary=mySuggester&suggest.q=elec:
+```
+http://localhost:8983/solr/techproducts/select?q=*:*&fl=id,name&start=0&rows=5&sort=id asc 
 ```
 
-Response:
-
+Response 
 ```json
 {
   "responseHeader":{
     "status":0,
-    "QTime":14},
-  "command":"build",
-  "suggest":{"mySuggester":{
-      "elec:":{
-        "numFound":3,
-        "suggestions":[{
-            "term":"electronics and computer1",
-            "weight":2199,
-            "payload":""},
-          {
-            "term":"electronics",
-            "weight":649,
-            "payload":""},
-          {
-            "term":"electronics and stuff2",
-            "weight":279,
-            "payload":""}]}}}}
+    "QTime":0,
+    "params":{
+      "q":["*:*",
+        "*:*"],
+      "indent":"on",
+      "fl":"id,name",
+      "start":"0",
+      "sort":"id asc",
+      "rows":"5",
+      "wt":"json"}},
+  "response":{"numFound":32,"start":0,"docs":[
+      {
+        "id":"0579B002",
+        "name":"Canon PIXMA MP500 All-In-One Photo Printer"},
+      {
+        "id":"100-435805",
+        "name":"ATI Radeon X1900 XTX 512 MB PCIE Video Card"},
+      {
+        "id":"3007WFP",
+        "name":"Dell Widescreen UltraSharp 3007WFP"},
+      {
+        "id":"6H500F0",
+        "name":"Maxtor DiamondMax 11 - hard drive - 500 GB - SATA-300"},
+      {
+        "id":"9885A004",
+        "name":"Canon PowerShot SD500"}]
+  }}
+
 ```

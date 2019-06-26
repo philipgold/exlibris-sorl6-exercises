@@ -1,4 +1,4 @@
-# Exercise 02 - DisMax Query Parser
+# Exercise 03 - DisMax Query Parser
  
 
 1. Get results for the word "video" using the `StandardRequestHandler` with the default search field:
