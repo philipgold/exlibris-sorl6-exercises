@@ -1,6 +1,6 @@
 # Exercise 01 - Schema API operations
 
-Assuming that we are using the gettingstarted collection, the base address of API will be http://localhost:8983/solr/gettingstarted
+Assuming that we are using the gettingstarted collection, the base address of API will be http://localhost:8983/solr/#/gettingstarted
 
 1. To see the schema, enter the `/schema` endpoint:
 
