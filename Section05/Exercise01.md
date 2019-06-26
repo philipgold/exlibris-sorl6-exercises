@@ -20,4 +20,4 @@ Note: As we have loaded a sample techproducts config set, it will import a bunch
 2. Check out the browse interface provided by Solr: hit `http://localhost:8984/solr/techproducts/browse` 
 
 Should be following screenshot:
-![alt text](../images/img-20.png)
+![alt text](../images/img-20.png) 

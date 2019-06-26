@@ -22,3 +22,9 @@ Response:
   }}
 
 ```
+
+2. Search for `delll ultra sharp` instead of `Dell UltraSharp`. 
+
+```html
+http://localhost:8984/solr/techproducts/spell?df=text&spellcheck.q=delll+ultra+sharp&spellcheck=true&spellcheck.collateParam.q.op=AND&indent=on&wt=json
+```

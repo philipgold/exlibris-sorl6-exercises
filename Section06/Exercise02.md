@@ -1,10 +1,7 @@
-# Exercise 07 - Suggester
+# Exercise 02 - Suggester
 
-We have configured the suggester and request handler for this suggester in solrconfig.xml. 
 
-Now let's run the configured suggester and examine the response. 
-
-Example: Let's search for elec and see how many suggestions are returned in response. 
+1. Search for `elec` and see how many suggestions are returned in response. 
  
 
 ```html
