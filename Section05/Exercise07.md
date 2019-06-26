@@ -1,4 +1,4 @@
-# Exercise 08 - Suggester
+# Exercise 07 - Suggester
 
 We have configured the suggester and request handler for this suggester in solrconfig.xml. 
 

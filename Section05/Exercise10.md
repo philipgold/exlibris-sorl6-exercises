@@ -1,4 +1,4 @@
-# Exercise 11 - Result clustering
+# Exercise 10 - Result clustering
 
 1. Enable clustering command: 
 

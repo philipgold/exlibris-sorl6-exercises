@@ -1,4 +1,4 @@
-# Exercise 10 - Result Grouping 
+# Exercise 9 - Result Grouping 
 
 1. Execute Grouping by field manu_exact", which specifies the manufacturers of items in the techproducts dataset.
  

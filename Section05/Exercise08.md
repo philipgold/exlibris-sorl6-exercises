@@ -1,4 +1,4 @@
-# Exercise 09 - Pagination
+# Exercise 08 - Pagination
 
 1. Search for a query `q=*:*` and get the first five results sorted by `ID` in ascending order. 
 
